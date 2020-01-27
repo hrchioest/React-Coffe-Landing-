@@ -1,0 +1,29 @@
+.content-principal{
+    text-align: center;
+    margin: 0;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+   
+}
+
+.content-items{
+    display: flex;
+    justify-content: space-around;
+}
+.content-text{
+    width: 35%;
+    padding: 35px 0 30px 30px;
+
+}
+.content-text h2{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+
+}
+.content-text p{
+    font-size: 10px;
+}
