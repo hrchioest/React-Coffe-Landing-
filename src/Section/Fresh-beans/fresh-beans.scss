@@ -1,0 +1,40 @@
+.content-fresh{
+    display: flex;
+    background: #fff;
+   
+}
+.content-texto h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.content-texto p{
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+    color: #767676;
+    line-height: 23px;
+}
+.content-texto a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content-img {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table-cell;
+}   
+.content-img img{
+   width: 700px;
+}
+.content-texto{
+    width: 42%;
+    line-height: 2;
+    padding: 96px 0px 0px 109px;
+}

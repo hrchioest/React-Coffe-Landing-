@@ -1,15 +1,32 @@
-.title{
-    text-align: start;
-    color: white;
-    font-size: 48px;
-    margin: 0;
+.story{
+    section{
+        position: relative;
+        padding-bottom: 52%;
+        background-position: top center;
+        background-size: cover;
+        height: 0;
+        background-repeat: no-repeat;
+        background-color: #1d140b;
+        .Wrapper-text{
+            position: absolute;
+            width: 37%;
+            text-align: center;
+            top: 100px;
+            left: 100px;
+            .title{
+                color: white;
+                font-family: 'Oswald', sans-serif;
+                font-size: 28px;
+                margin: 0;
+            }
+            .subtitle{
+                font-size: 14px;
+                color: #ffffff;
+                font-size: 10px;
+                font-family: 'Nunito', sans-serif;
+            }
+            
+        }
+    }
     
-}
-.subTitle{
-    font-size: 14px;
-    color: #ffffff;
-    text-align: center;
-}
-.img{
-    height: 260px;
 }

@@ -10,9 +10,10 @@ const Hero = () =>{
     return (
         <CardMove 
             type="hero" 
-            backgraundImgHero={CoffeeImg}
-            titleHero="Portwell, Inc." 
-            subTitleHero="Serving only best since 2019"
+            backgraundImg={CoffeeImg}
+            title="Portwell, Inc." 
+            subTitle="Serving only best since 2019"
+            link="Explore"
         />            
     )   
 }

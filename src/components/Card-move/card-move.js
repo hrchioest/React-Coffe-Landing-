@@ -6,14 +6,14 @@ const CardMove= props =>{
 
     return (
         <div className={ props.type }>
-            <section 
-                className="wrapper-card" 
+            <section className="wrapper-card" 
                 style={
-                    { backgroundImage:`url(${props.backgraundImgHero})`}} >
+                    { backgroundImage:`url(${props.backgraundImg})`}} >
                 <div className ="Wrapper-text">
-                    <h1 className="title">{props.titleHero}</h1>
-                    <h2 className="subTitle">{props.subTitleHero}</h2>
-                </div> 
+                    <h2 className="title">{props.title}</h2>
+                    <h3 className="subtitle">{props.subTitle}</h3>
+                    <a href="#" >{props.link}</a>
+                </div>
             </section>
         </div>
     );  

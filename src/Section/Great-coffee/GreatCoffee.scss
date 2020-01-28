@@ -1,18 +1,22 @@
-.hero{
+.GreatCoffee{
     section {
         background-attachment: fixed;
+        height: 500px;
         .Wrapper-text{
-            text-align: center;
+            width: 30%;
             .title{
                 font-family: 'Oswald', sans-serif;
-                font-size: 48px;
-                color:#fff;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
                 
             }
             .subtitle{
-                font-size: 14px;
-                font-family: 'Nunito', sans-serif;
-                color:#fff;
+                font-size: 10px;
+                font-family: 'Nunito', san  s-serif;
+                color: #767676;
+                line-height: 23px;
             }
             a{
                 font-family: 'Oswald', sans-serif;
@@ -25,7 +29,5 @@
 
         }
     }
-    
-
     
 }
