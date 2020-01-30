@@ -1,0 +1,41 @@
+.wrapper-texts{
+   width: 35%;
+   text-align: center;
+   padding: 74px 0 37px 59px;
+   
+
+    h2{
+        margin: 0;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-size: 30px;
+        margin-top: 0;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 10px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+}
+.wrapper-cards{
+    display: flex;
+    width: 80%;
+    margin-left: 113px;
+}
+
+.wrappers-total{
+    background: #ebebeb;
+    box-sizing: border-box;
+}
+footer{
+    p{
+        font-size: 10px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        margin: 0;
+        padding: 61px 0px 46px 80px;
+    }
+}

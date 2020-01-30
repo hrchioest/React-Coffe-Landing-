@@ -8,7 +8,9 @@ import StoryCoffee from './Section/StoryCoffee/StoryCoffee';
 import FreshBeans from './Section/Fresh-beans/Fresh-beans';
 import GreatCoffee from './Section/Great-coffee/GreatCoffee';
 import CoffeeShop from './Section/CoffeeShop/CoffeeShop';
-import ThreeImgs from './Section/ThreeImgs/ThreeImgs';
+import CardsImgs from './Section/ThreeImgs/ThreeImgs';
+import Latest from './Section/Latest/Latest';
+
 
 const App = () => {
   return (
@@ -20,7 +22,8 @@ const App = () => {
       <FreshBeans />
       <GreatCoffee />
       <CoffeeShop />
-      <ThreeImgs />
+      <CardsImgs />
+      <Latest />
 
     </div>
   );

@@ -1,33 +1,32 @@
 import React from 'react';
-import CardThreeImgs from '../../components/Card-threeImgs/Card-threeImgs';
+import CardsBackgrounds from '../../components/Card-imgs/Card-imgs';
 import AlfajorImg from './alfajor-coffee-item1.jpg';
 import CoffeeCup from './coffee-cup-item2.jpg';
 import CoffeeGrans from './coffee-granos-item1.jpg';
 
 const imgs = [
     {
-        imgs:AlfajorImg
+        ImgCard:AlfajorImg
     },
     {
-        img:CoffeeCup
+        ImgCard:CoffeeCup
     },
     {
-        img:CoffeeGrans
+        ImgCard:CoffeeGrans
     }
 ]
 
-const ThreeImgs = () => {
+const CardsImgs = () => {
     return(
         <div className="content-items">
             {imgs.map(img => {
                 return (
-                    <CardThreeImgs ImgCard ={img.ImgCard}></CardThreeImgs>
+                    <CardsBackgrounds ImgCard ={img.ImgCard}></CardsBackgrounds>
                 );
             })};
-
         </div>
     );
 
 }
 
-export default ThreeImgs;
+export default CardsImgs;
