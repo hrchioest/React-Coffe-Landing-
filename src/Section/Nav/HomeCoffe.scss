@@ -1,12 +1,18 @@
-
-.wrapper-list{
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
+.wrapper-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  cursor: pointer;
 }
 
-.nav-item{
-    margin: 10px;
+.nav-item {
+  margin: 10px;
+}
+
+li:hover {
+  .nav-item {
+    color: gray;
+  }
 }
